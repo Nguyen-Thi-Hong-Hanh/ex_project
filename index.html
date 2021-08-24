@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Da Nang. Let's go!</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="img/png" href="images/logooo.png">
+		<link href = "css/trangchu.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/lienhe.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/css.css" rel = "stylesheet" type = "text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="news_keywords" content="Happy city, du lịch Đà Nẵng, blog Đà Nẵng, Tham quan Đà Nẵng, Khám phá Đà Nẵng" />
+		<meta name="description" content="Happy city, một đơn vị chuyên tổ chức tour du lịch, team building, du lịch kết hợp team builng hàng đầu tại Đà Nẵng, với các sản phẩm du lịch được thiết kế tỉ mỉ và chọn lọc nhằm hướng đến giá trị đích thực của một kỳ nghỉ với phương châm mỗi hành trình là một trải nghiệm độc đáo" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+		<script src="https://cdn.ckeditor.com/ckeditor5/28.0.0/classic/ckeditor.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid fixed-top" style = "background-color:#0B0B3B">
+			<nav class="navbar navbar-expand-xl sticky-top" style = "background-color:#0B0B3B; width:100%">
+				<div class="aa"><a class="navbar-brand" href="index.html"><b class="h4">HAPPY CITY</b><img src = "images/logo.png" alt="logo" class="logo"></a></div>
+				<div class="btnn">
+					<button class="navbar-toggler btn btn-outline-x btn-floating m-1 whi" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<div class="menuu">MENU</div>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="nav nav-pills" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="pill" href="#index.html" id="myDIV" onclick="document.location='index.html'"><b>Home</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#blog.html" id="myDIV" onclick="document.location='pages/blog.html'"><b>Blog</b></a>
+						</li>
+						<li class="nav-item dropdown">
+								<div type="button" class="nav-link" data-toggle="dropdown" id="myDIV">
+								  <b>Service</b>
+								</div>
+								<div class="dropdown-menu">
+								  <a class="dropdown-item" href="pages/hotel.html">Places</a>
+								  <a class="dropdown-item" href="pages/snacks.html">Snacks</a>
+								  <a class="dropdown-item" href="pages/snacks.html">Drink</a>
+								  <a class="dropdown-item" href="pages/hotel.html">Hotel</a>
+								</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#moment.html" id="myDIV" onclick="document.location='pages/moment.html'"><b>Moment</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#news.html" id="myDIV" onclick="document.location='pages/news.html'"><b>News</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#contact.html" id="myDIV" onclick="document.location='pages/contact.html'"><b>Contact</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#login.html" id="myDIV" onclick="document.location='pages/login.html'"><b>Login</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#cart.html" id="myDIV" onclick="document.location='pages/cart.html'"><i class="fas fa-shopping-cart" style="font-size:25px;"></i></a>
+						</li>
+						<li class="nav-item dropdown">
+								<div type="button" class="nav-link" data-toggle="dropdown" id="myDIV">
+									<i class="fab fa-searchengin" style="font-size:25px;"></i>
+								</div>
+								<div class="dropdown-menu">
+									<input type="text" class="form-control" id="" placeholder="Search"></input>
+								</div>
+						</li>
+					</ul>
+				</div>
+			</nav>	
+		</div>
+		<div class="container-fluid" style="padding-top: 92px; padding-left: 15px; padding-right:0px;">
+			<div class="row banner">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width:100%">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" id="image" src="images/1.jpg" alt="First slide">
+								<div class="center">								
+									<div class="button">
+										<div id="animated-example" class="animated bounceInDown">
+											<h1 style="color:white"><b>Welcome to Da Nang</b></h1>
+										</div>
+										<div id="animated-example" class="animated bounceInUp">
+											<button type="button" class="btnnn btn btn-outline-warning "><h3>Start Now</h3></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" id="image" src="images/2.jpg" alt="First slide">
+								<div class="center">								
+									<div class="button">
+										<div id="animated-example" class="animated bounceInDown">
+											<h1 style="color:white"><b>Welcome to Da Nang</b></h1>
+										</div>
+										<div id="animated-example" class="animated bounceInUp">
+											<button type="button" class="btn btn-outline-warning btnnn"><h3>Start Now</h3></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" id="image" src="images/3.jpg" alt="First slide">
+								<div class="center">								
+									<div class="button">
+										<div id="animated-example" class="animated bounceInDown">
+											<h1 style="color:white"><b>Welcome to Da Nang</b></h1>
+										</div>
+										<div id="animated-example" class="animated bounceInUp">
+											<button type="button" class="btn btn-outline-warning btnnn"><h3>Start Now</h3></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="tab-content" style="padding-top:20px">
+			<div class="container-fluid tab-pane active">
+				
+				<br>
+				<div class="row alll">
+					<div class="col-sm-12">
+						<h2>DA NANG TOURISM BLOG</h2>
+						<h4>The latest articles about Da Nang travel experiences</h4>
+						<div class="button" style="padding-bottom:20px"><button type="button" class="btn btn-outline-danger">READ BLOG</button></div>
+					</div>
+					<div class="col-sm-3 img" title ="Price list for car rental in Da Nang 2021">
+						<a href="pages/banggiathuexedulich.html">
+							<img src="images/4.jpg" alt="" width="260px" height="200px" class="image">
+							<div class="txt">
+								<div class="text">
+									<h5>Price list for car<br> rental in Da Nang 2021</h5>
+									<p>10/05/2021</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-3 img" title="Cheap motorbike rental,quality in Da Nang">
+						<a href="pages/banggiathuexedulich.html">
+						<img src="images/5.jpg" alt="" width="260px" height="200px" class="image">
+						<div class="txt">
+							<div class="text">
+								<h5>Cheap motorbike rental,<br>quality in Da Nang</h5>
+								<p>10/05/2021</p>
+							</div>
+						</div>
+						</a>
+					</div>
+					<div class="col-sm-3 img" title="43 Factory Coffee">
+					<a href="pages/cafe.html">
+						<img src="images/6.jpg" alt="" width="260px" height="200px" class="image">
+						<div class="txt">
+							<div class="text">
+								<h5>43 Factory Coffee</h5>
+								<p>18/05/2021</p>
+							</div>
+						</div>
+					</a>
+					</div>
+					<div class="col-sm-3 img" title="Mar Rojo Cafe">
+					<a href="pages/cafe.html">
+						<img src="images/7.jpg" alt="" width="260px" height="200px" class="image">
+						<div class="txt">
+							<div class="text">
+								<h5>Mar Rojo Cafe</h5>
+								<p>20/05/2021</p>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>				
+				<hr class="hr">
+				<div class="row " style="padding-top:50px">
+					<div class="col-sm-12">
+						<h2>TOUR HOT</h2>
+						<h4>The tour is the most chosen by guests</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 iii">
+						<div title="Visit 3 Linh Ung pagodas - Da Nang">
+							<div class="ima tx">
+								<img src="images/40.jpg" alt="Avatar" class="images">
+								<div class="middle">
+									<button type="button" class="btn btn-outline-success" onclick="document.location='pages/tour.html'">Go now</button>
+								</div>
+								<div class="color">
+									<h6>Visit 3 Linh Ung pagodas - Da Nang</h6>
+									<p>02/01/2021</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div title="Explore Nam Son Pagoda - Da Nang">
+							<div class="ima tx">
+							  <img src="images/41.jpg" alt="Avatar" class="images">
+							  <div class="middle">
+								<button type="button" class="btn btn-outline-success" onclick="document.location='pages/tour.html'">Go now</button>
+							  </div>
+							<div class="color">
+								<h6>Explore Nam Son Pagoda - Da Nang</h6>
+								<p>02/01/2021</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div  title="InterContinental Danang Sun peninsula Resot">
+							<div class="ima tx">
+							  <img src="images/42.jpg" alt="Avatar" class="images">
+							  <div class="middle">
+								<button type="button" class="btn btn-outline-success" onclick="document.location='pages/tour.html'">Go now</button>
+							  </div>
+							<div class="color">
+								<h6>InterContinental Danang Sun peninsula Resot</h6>
+								<p>02/01/2021</p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div  title="Don Ca Arch Bridge - a forgotten 'paradise' at the foot of Hai Van Pass">
+							<div class="ima tx">
+							  <img src="images/43.jpg" alt="Avatar" class="images">
+							  <div class="middle">
+								<button type="button" class="btn btn-outline-success" onclick="document.location='pages/tour.html'">Go now</button>
+							  </div>
+							  <div class="color">
+								<h6>Do Ca Bridge - the forgotten 'paradise'</h6>
+								<p>02/01/2021</p>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="hr">
+				<div class="row " style="padding-top:20px">
+					<div class="col-sm-12">
+						<h2>TICKET</h2>
+						<h4>Tickets to visit tourist attractions in Da Nang</h4>
+					</div>
+				</div>
+				<div class="row table">
+					<div class="full">
+						<table>
+							<tr>
+								<td rowspan="2">
+								<a href="pages/tour.html">
+									<div class="menu__container mn">
+										<div class="menu"  title="Da Nang reverse house ticket" style="background-image: url(images/107.jpg);"></div>
+									</div>
+								</a>
+								</td>
+								<td>
+								<a href="pages/tour.html">
+									<div class="menu__container mn1">
+										<div class="menu"  title="Han River cruise ticket" style="background-image: url(images/19.jpg);"></div>
+									</div>
+								</a>
+								</td>
+								<td>
+								<a href="pages/tour.html">
+									<div class="menu__container mn1">
+										<div class="menu" title="Da Nang Dragon Cruise Ticket"  style="background-image: url(images/20.jpg);"></div>
+									</div>
+								</a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+								<a href="pages/tour.html">
+									<div class="menu__container mn2">
+										<div class="menu"  title="Ba Na Hills cable car ticket" style="background-image: url(images/3.jpg);"></div>
+									</div>
+								</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="dienthoai">
+						<a href="pages/tour.html">
+							<div class="anh">
+								<img src="images/107.jpg">
+							</div>
+						</a>
+						<a href="pages/tour.html">
+							<div class="anh">
+								<img src="images/19.jpg">
+							</div>
+						</a>
+						<a href="pages/tour.html">
+							<div class="anh">
+								<img src="images/20.jpg">
+							</div>
+						</a>
+						<a href="pages/tour.html">
+							<div class="anh">
+								<img src="images/3.jpg">
+							</div>
+						</a>
+					</div>
+				</div>
+				<br>
+				<hr class="hr">
+				<div class="row " style="padding-top:10px">
+					<div class="col-sm-12">
+						<h2>DAY LONG JOIN TOUR</h2>
+						<h4>Joining tour 5 days, 4 days, 3 days , 2 days 1 night explore Hoi An, Da Nang and Hue</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="pages/tour.html" title="Son Tra - Ngu Hanh Son - Hoi An - Ba Na - Hue">
+								<div class="tt">Son Tra - Ngu Hanh Son - Hoi An - Ba Na - Hue</div>
+								<span style="color:#8d8b8b">2.750.000đ</span>
+								<img id = "tintuc" src = "images/26.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+				
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="pages/tour.html" title="Son Tra - Ngu Hanh Son - Ba Na - Cham Island - Hoi An">
+								<div class="tt">Son Tra - Ngu Hanh Son - Ba Na - Cu Lao Cham</div>
+								<span style="color:#8d8b8b">2.500.000đ</span>
+								<img id = "tintuc" src = "images/27.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="pages/tour.html" title="Son Tra - Hue - Ba Na - Ngu Hanh Son - Hoi An">
+								<div class="tt">Son Tra - Hue - Ba Na - Ngu Hanh Son - Hoi An</div>
+								<span style="color:#8d8b8b">2.450.000đ</span>
+								<img id = "tintuc" src = "images/28.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="pages/tour.html" title="Son Tra - Ba Na - Hoi An - Hue">
+								<div class="tt">Son Tra - Ba Na - Hoi An - Hue - Cu Lao Cham</div>
+								<span style="color:#8d8b8b">3.250.000đ</span>
+								<img id = "tintuc" src = "images/29.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+				
+				</div><br>
+				<div class="button" ><button type="button" class="btn btn-outline-success">See more tours</button></div>
+				<hr class="hr">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>TOP HOTELS</h2>
+						<h4>Cheap hotel booking system in Da Nang</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1" style="margin-right:65px;"></div>
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="#">
+								<div class="tt">A LA CARTE DA NANG</div>
+								<img id = "tintuc" src = "images/84.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="#">
+								<div class="tt">MANDILA BEACH</div>
+								<img id = "tintuc" src = "images/85.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 iii">
+						<div class="ima" style="background-color:#0B0B3B">
+							<a style = "text-decoration:none; color:white" href="#">
+								<div class="tt">ART HOTEL DA NANG</div>
+								<img id = "tintuc" src = "images/86.jpg">
+								<div class="ic">
+									<i class="fas fa-star" style="color:#F5DA81"></i>
+									<i class="fas fa-star" style="color:#F7D358"></i>
+									<i class="fas fa-star" style="color:#FACC2E"></i>
+									<i class="fas fa-star" style="color:#FE9A2E"></i>
+									<i class="fas fa-star" style="color:#FF8000"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>	
+					<br>
+				<div class="button"><button type="button" class="btn btn-outline-success">View more hotels</button></div>
+				<hr class="hr">
+				<a href="" style="text-decoration:none">
+					<h2 style="padding-bottom:5px">DA NANG TOURISM BUS</h2>
+					<h4>Explore Da Nang by high-quality, double-decker tourist bus</h4>
+				</a>
+				<hr class="hr">
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>LIST OF TOUR</h2>
+						<h4>Always give you the cheapest and best quality tours</h4>
+					</div>
+				</div>
+				<div class="row">
+				<div class="table-responsive">
+					<table width="100%">
+						<tr>
+							<td class="t1">
+								<h5><i class="fas fa-walking" style="font-size:24px;"></i>	Seven-acre coconut forest tour to welcome Da Nang</h5>
+							</td>
+							<td  class="t2">550.000đ</td>
+							<td class="t1">
+								<h5><i class="fas fa-binoculars" style="font-size:24px;"></i>	Son Tra - Ngu Hanh Son - Hoi An</h5>
+							</td>
+							<td class="t2">550.000đ</td>
+						</tr>
+						<tr>
+							<td class="t1">
+								<h5><i class="fas fa-walking" style="font-size:24px;"></i>	Vinpearl Nam Hoi An half day tour</h5>
+							</td>
+							<td  class="t2">675.000đ</td>
+							<td class="t1">
+								<h5><i class="fas fa-binoculars" style="font-size:24px;"></i>	Da Nang - Ngu Hanh Son - Hoi An</h5>
+							</td>
+							<td  class="t2">550.000đ</td>
+						</tr>
+						<tr>
+							<td class="t1">
+								<h5><i class="fas fa-walking" style="font-size:24px;"></i>	Cham Island fishing tour</h5>
+							</td>
+							<td  class="t2">950.000đ</td>
+							<td class="t1">
+								<h5><i class="fas fa-binoculars" style="font-size:24px;"></i>	Hue 1 day tour from Da Nang</h5>
+							</td>
+							<td  class="t2">750.000đ</td>
+						</tr>	
+						<tr>
+							<td class="t1">
+								<h5><i class="fas fa-walking" style="font-size:24px;"></i>	Hoa Phu Thanh waterfall 1 day slide tour</h5>
+							</td>
+							<td  class="t2">650.000đ</td>
+							<td class="t1">
+								<h5><i class="fas fa-binoculars" style="font-size:24px;"></i>	City Tour Da Nang 1 day</h5>
+							</td>
+							<td  class="t2">650.000đ</td>
+						</tr>
+					</table>
+				</div>
+				</div>
+				<hr class="hr">
+				<a href="" style="text-decoration:none" >
+					<h2 style="padding-bottom:5px">DISCOVER DA NANG CITY ONLY 150,000VND</h2>
+					<h4>Admire the whole city of Da Nang by cruise on the Han River, held in the evening</h4>
+					<div class="button"><button type="button" class="btn btn-outline-success">Book now</button></div>
+				</a>
+				<hr class="hr">
+				<h2 style="padding-bottom:5px">WHAT CUSTOMERS SAY ABOUT US</h2>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="our-team">
+							<div class="picture">
+								<img class="img-fluid" src="images/74.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Jack Smarck</h3>
+								<h4 class="title">Some quick example text to build on the card title and make up the bulk of the card's content.</h4>
+							</div>
+							<div class="social">
+								<i class="fas fa-star" style="color:#FCFC04"></i>
+								<i class="fas fa-star" style="color:#FCEF04"></i>
+								<i class="fas fa-star" style="color:#FCDF04"></i>
+								<i class="fas fa-star" style="color:#FCD204"></i>
+								<i class="fas fa-star" style="color:#FCCE04"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="our-team">
+							<div class="picture">
+								<img class="img-fluid" src="images/75.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Jack Nam</h3>
+								<h4 class="title">Some quick example text to build on the card title and make up the bulk of the card's content.</h4>
+							</div>
+							<div class="social">
+								<i class="fas fa-star" style="color:#FCFC04"></i>
+								<i class="fas fa-star" style="color:#FCEF04"></i>
+								<i class="fas fa-star" style="color:#FCDF04"></i>
+								<i class="fas fa-star" style="color:#FCD204"></i>
+								<i class="fas fa-star" style="color:#FCCE04"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="our-team">
+							<div class="picture">
+								<img class="img-fluid" src="images/76.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Eyciir</h3>
+								<h4 class="title">Some quick example text to build on the card title and make up the bulk of the card's content.</h4>
+							</div>
+							<div class="social">
+								<i class="fas fa-star" style="color:#FCFC04"></i>
+								<i class="fas fa-star" style="color:#FCEF04"></i>
+								<i class="fas fa-star" style="color:#FCDF04"></i>
+								<i class="fas fa-star" style="color:#FCD204"></i>
+								<i class="fas fa-star" style="color:#FCCE04"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="our-team">
+							<div class="picture">
+								<img class="img-fluid" src="images/77.jpg">
+							</div>
+							<div class="team-content">
+								<h3 class="name">Han Hon</h3>
+								<h4 class="title">Some quick example text to build on the card title and make up the bulk of the card's content.</h4>
+							</div>
+							<div class="social">
+								<i class="fas fa-star" style="color:#FCFC04"></i>
+								<i class="fas fa-star" style="color:#FCEF04"></i>
+								<i class="fas fa-star" style="color:#FCDF04"></i>
+								<i class="fas fa-star" style="color:#FCD204"></i>
+								<i class="fas fa-star" style="color:#FCCE04"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="hr">
+				<div class="row" style="padding-top:50px">
+					<div class="col-sm-4">
+						<div class="card"title="The ancient capital of Hue">
+							<div class="imgBx">
+								<img src="images/36.jpg">
+							</div>
+							<div class="details">
+								<h2>The ancient capital of Hue</h2>
+								<p>An ancient city, the ancient capital of the Nguyen Dynasty - here you can explore the mausoleum, Hue citadel, pagodas and the romantic Perfume River.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card">
+							<div class="imgBx">
+								<img src="images/37.jpg">
+							</div>
+							<div class="details" title="Ba Na Hills">
+								<h2>Ba Na Hills</h2>
+								<p>Ba Na Hills is known as "Da Lat of Central", "Road to Fairyland", with many beautiful landscapes, 1 day climate with 4 full seasons: spring, summer, autumn, winter.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card">
+							<div class="imgBx">
+								<img src="images/39.jpg">
+							</div>
+							<div class="details" title="Linh Ung Pagoda">
+								<h2>Linh Ung Pagoda</h2>
+								<p>Da Nang has 3 pagodas named Linh Ung. Linh Ung Pagoda Bai But Son is the largest and most beautiful temple and has great spiritual value for the people of Da Nang.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="lienhe zo">
+						<h3 class="content__title">GET IN TOUCH</h3>
+						<form>
+							<label for="name"><h5>Name:</h5></label>
+							<input type="text" id="name" class="form-control" id="name" placeholder="" required><br>
+							<label for="email" ><h5>Email:</h5></label>
+							<input type="email" id="email" class="form-control" id="email" placeholder="...@gmail.com" required><br>
+							<label for="message"><h5>Messages:</h5></label>
+							<div class="editor "><div id="editor" required></div></div>						 
+							<div class="buttoo"><button type="submit" onclick="mess()" class="btn btn-outline-success buttoon">Send Message</button></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><br>
+		<div class="container-fluid">
+			<div class = "row fd" style = "background: #0B0B3B">
+				<div class = "col-sm-4 text-center">
+					<br><br>
+					<h4  class="ft">INFORMATION</h4>
+					<p><font color = "red"><i class="fas fa-phone-volume"></i>  0768629471<br>
+					<i class="far fa-envelope"></i>  nthhanh.20it10@vku.udn.vn</font></p>
+				</div>
+				<div class = "col-sm-3">
+					<br>
+					<h4  class="tdft">CONTENTS</h4>
+					<a href = "pages/blog.html" class="ft">Blog</a><br>
+					<a href = "#" class="ft">Tours</a><br>
+					<a href = "pages/hotel.html"  class="ft">Hotels</a><br>
+					<a href = "#" class="ft">Map</a><br>
+					<a href = "pages/contact.html"  class="ft">Contact</a>
+				</div>
+				<div class = "col-sm-3">
+					<br>
+					<h4  class="tdft">DISCOVER</h4>
+					<a href = "pages/news.html"  class="ft">News</a><br>
+					<a href = "pages/places.html"  class="ft">Places</a><br>
+					<a href = "pages/snacks.html"  class="ft">Snacks</a><br>
+					<a href = "pages/snacks.html"  class="ft">Drink</a><br>
+					<a href = "pages/blog.html"  class="ft">Blog</a>
+				</div>
+				<div class = "col-sm-2">
+					<br>
+					<h4  class="tdft">LINK</h4>
+					<a href = "#"  class="ft">Hue Tourism</a><br>
+					<a href = "#"  class="ft">Daily Tour</a><br>
+					<a href = "#"  class="ft">Hue Restaurant</a><br>
+					<a href = "#"  class="ft">Central Travel Website Web</a><br>
+				</div>
+			</div>
+			<div class = "row color">
+				<hr>
+			</div>
+			<div class = "row color">
+				<div class = "col-sm-12 text-center">
+					<a class="btn btn-outline-warning btn-floating m-1 whi" href="http://facebook.com/nthhnguyenhanh" role="button"><i class="fab fa-facebook-f"></i></a>
+							<a class="btn btn-outline-info btn-floating m-1 whi" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+							<a class="btn btn-outline-danger btn-floating m-1 whi" href="#!" role="button"><i class="fab fa-google"></i></a>
+							<a class="btn btn-outline-dark btn-floating m-1 whi" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+					<br><br>
+				</div>
+			</div>
+		</div>
+		<script>
+	$(document).ready(function(){ 
+		$(window).scroll(function(){ 
+			if ($(this).scrollTop() > 100)
+			{
+				$('#back-to-top').fadeIn();
+			} else { 
+				$('#back-to-top').fadeOut();
+			} 
+		}); 
+		$('#back-to-top').click(function(){ 
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false; 
+		}); 
+	});
+	</script>
+	<span id="back-to-top">
+		<i class="far fa-arrow-alt-circle-up fa-2x"></i>
+	</span>
+	
+	<!-- JavaScript -->
+	<script>
+		ClassicEditor
+			.create( document.querySelector( '#editor' ) )
+			.catch( error => {
+				console.error( error );
+			} );
+	</script>
+		<a href="http://messenger.com" id="mess" onclick="window.open(this.href); return false;" data-toggle="popover"><i class="fab fa-facebook-messenger" style="font-size:36px;"></i></a>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="popover"]').popover(); 			  
+			});
+		</script>
+	</body>
+</html>
